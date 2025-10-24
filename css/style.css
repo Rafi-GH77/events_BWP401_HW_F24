@@ -1,8 +1,8 @@
 
 body {
     font-family: 'Cairo', sans-serif;
-    background-color: #333; 
-    color: #fff; 
+    background-color: #ffffff; 
+    color: #000000; 
 }
 /* Container for layout control */
 .container {
@@ -33,20 +33,13 @@ body.lang-ar {
     text-align: right;
 }
 
-/* LTR support for English */
-body.lang-en {
-    direction: ltr;
-    text-align: left;
-}
-
 /* Card styling for dark theme */
 .card {
-    background-color: #444; 
-    border: none;
+    background-color: #ffffff; 
+    border:4px;
 }
 
 /* Card image sizing */
 .card-img-top {
-    height: 200px;
     object-fit: cover;
 }
